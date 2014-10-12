@@ -31,9 +31,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
-					<p><button type="button" class="btn btn-default btn-lg" href="index.html">
+					<p><a href="index.html"><button type="button" class="btn btn-default btn-lg">
 					  Back to Lance.Me
-					</button></p>
+					</button></a></p>
 				</div>
 				<div class="col-md-4">
 					<div class="panel panel-default">
@@ -47,9 +47,9 @@
 						<div id="password" class="input-group">
 						  <input type="text" class="form-control" placeholder="Password">
 						</div>
-						<button id="signin" type="button" class="btn btn-default">
+						<a href="profile.php"><button id="signin" type="button" class="btn btn-default">
 						  Sign In
-						</button>
+						</button></a>
 					  </div>
 					</div>
 				</div>	
@@ -79,9 +79,9 @@
 						<div id="password" class="input-group">
 						  <input name="password" type="text" class="form-control" placeholder="Same as above">
 						</div>
-						<button href="profile.php" id="signin" type="button" class="btn btn-default">
+						<a href="profile.php"><button id="signin" type="button" class="btn btn-default">
 						  Submit
-						</button>
+						</button></a>
 						<!-- </form> -->
 						</div>
 					  </div>

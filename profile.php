@@ -47,18 +47,18 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<h1>Name:</h1><h2><!-- Insert Profile name Here--></h2>
+				<div class="col-md-6">
+					<h1>Name:</h1><h2>Rohan Shah</h2>
 				</div>
 			</div>	
 			<div class="row">
-				<div class="col-md-4">
-					<h3>Email:</h3><h4><!--Install Email here--></h4>
+				<div class="col-md-6">
+					<h4>Email: rshahahahah@gmail.com</h4>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
-					<h4>Bio:<br></h4><p><!--Bio--></p>
+				<div class="col-md-6">
+					<h4>Bio:<br></h4><p>15 year old high school hacker willing to work. <br>Skills:<br> -Python <br> -Django <br> -Rapping <br></p>
 				</div>
 			</div>
 		</div>

@@ -12,6 +12,9 @@
 		<!-- settings.css import -->
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
+		<!-- settings.css import -->
+		<link rel="stylesheet" type="text/css" href="css/settingspage.css">
+
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 
@@ -45,7 +48,8 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-		<div class="col-md-6">
+		<div 
+			<div class="col-md-12">
 					<div class="panel panel-default">
 					  <div class="panel-heading">
 					    <h3 class="panel-title"> Settings </h3>
