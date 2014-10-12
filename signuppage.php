@@ -58,14 +58,15 @@
 					  <div class="panel-body">
 					  	<h5> Name </h5>
 					    <div class="input-group">
-						  <input type="text" class="form-control" placeholder="Johnson">
+					    	<form action="http://localhost/save.php/" method="post">
+						  <input name = "firstName" type="text" class="form-control" placeholder="Johnson">
 						</div>
 						<div id="password" class="input-group">
-						  <input type="text" class="form-control" placeholder="Lin">
+						  <input name="lastName" type="text" class="form-control" placeholder="Lin">
 						</div>
 						<h5> Email </h5>
 						<div id="password" class="input-group">
-						  <input type="text" class="form-control" placeholder="johnson.lin@example.com">
+						  <input name = "email" type="text" class="form-control" placeholder="johnson.lin@example.com">
 						</div>
 						<h5> Password </h5>
 						<div id="password" class="input-group">
@@ -73,11 +74,10 @@
 						</div>
 						<h5> Confirm Password </h5>
 						<div id="password" class="input-group">
-						  <input type="text" class="form-control" placeholder="Same as above">
+						  <input name="password" type="text" class="form-control" placeholder="Same as above">
 						</div>
-						<button type="button" class="btn btn-default">
-						  Sign Up
-						</button>
+						<input type="submit" value="Enter">
+						</form>
 						</div>
 					  </div>
 					</div>
