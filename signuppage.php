@@ -76,7 +76,7 @@
 						<div id="password" class="input-group">
 						  <input name="password" type="text" class="form-control" placeholder="Same as above">
 						</div>
-						<input type="submit" value="Enter">
+						<input type="submit" onclick="alertconfirm()" value="Submit">
 						</form>
 						</div>
 					  </div>
@@ -84,6 +84,12 @@
 				</div>	
 			</div>
 		</div>
+
+		<script type="text/javascript">
+		function alertconfirm() {
+		    document.getElementById("demo").innerHTML = "Hello World";
+		}
+		</script>
 
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
