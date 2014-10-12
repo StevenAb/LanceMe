@@ -15,12 +15,15 @@
     }
 }
 
+.navbar-default .navbar-brand {
+    color: #C04848;
+}
 .navbar {
     background-color: #480048;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #EDE1B2;
+    color: #C04848;
 }
 
 
@@ -35,18 +38,20 @@
     background-size: auto 100%;
     text-align: center;
     font-family: 'Lato:900', sans-serif;
-    color: #EDE1B2;
+    color: #C04848;
 }
 
 #logo {
     background-color: transparent;
-    margin-top: 10px;
 }
 
-.jumbotron .btn {
+.btn {
     color: #EDE1B2;
     border-radius: 0;
-    text-shadow: 0px 0px;
     background-color: #480048;
     border-color: #480048;
+}
+
+ul.nav a:hover { 
+    color: #EDE1B2 !important; 
 }
