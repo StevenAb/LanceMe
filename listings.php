@@ -33,14 +33,14 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-		        <li><a href="#">My Profile</a></li>
+		        <li><a href="profile.php">My Profile</a></li>
 		        <li class="active"><a href="#">Job Listings</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav">
-		        <li><a href="#">Lancers</a></li>
+		        <li><a href="lancers.php">Lancers</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">Settings</a></li>
+		        <li><a href="settings.php">Settings</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

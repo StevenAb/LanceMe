@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 		<!-- Landing.css import -->
-		<link rel="stylesheet" type="text/css" href="css/setuppage.css">
+		<link rel="stylesheet" type="text/css" href="css/signuppage.css">
 
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -31,7 +31,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
-					<p> <button type="button" class="btn btn-default btn-lg">
+					<p><button type="button" class="btn btn-default btn-lg" href="index.html">
 					  Back to Lance.Me
 					</button></p>
 				</div>
@@ -47,7 +47,7 @@
 						<div id="password" class="input-group">
 						  <input type="text" class="form-control" placeholder="Password">
 						</div>
-						<button type="button" class="btn btn-default">
+						<button id="signin" type="button" class="btn btn-default">
 						  Sign In
 						</button>
 					  </div>
@@ -61,7 +61,7 @@
 					  <div class="panel-body">
 					  	<h5> Name </h5>
 					    <div class="input-group">
-					    	<form action="http://localhost/save.php/" method="post">
+					    	<!-- <form action="http://localhost/save.php/" method="post"> -->
 						  <input name = "firstName" type="text" class="form-control" placeholder="Johnson">
 						</div>
 						<div id="password" class="input-group">
@@ -79,8 +79,10 @@
 						<div id="password" class="input-group">
 						  <input name="password" type="text" class="form-control" placeholder="Same as above">
 						</div>
-						<input type="submit" onclick="alertconfirm()" value="Submit">
-						</form>
+						<button href="profile.php" id="signin" type="button" class="btn btn-default">
+						  Submit
+						</button>
+						<!-- </form> -->
 						</div>
 					  </div>
 					</div>

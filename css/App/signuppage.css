@@ -4,38 +4,14 @@
 
 body {
     font-family: 'Lato:', sans-serif;
-    background-color: black;
 }
 
 h3 {
 	text-align: center;
-	    color: #EDE1B2;
 }
 
 p {
 	text-align: center;
-}
-
-#signin {
-	margin-top: 5px;
-}
-
-#submit {
-    color: #EDE1B2;
-    border-radius: 0;
-    background-color: #480048;
-    border-color: #480048;
-    text-shadow: 0px 0px;
-    font-family: 'Lato:', sans-serif;
-    margin-top: 5px;
-}
-
-.panel .panel-default .panel-heading .panel-title {
-	color: #EDE1B2;
-}
-
-.panel .panel-default .panel-heading {
-	background-color-color: #480048;
 }
 
 /* body {
