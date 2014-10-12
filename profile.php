@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 		<!-- Landing.css import -->
-		<link rel="stylesheet" type="text/css" href="css/.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -50,15 +50,30 @@
 				<div class="col-md-4">
 					<h1>Name:</h1><h2><!-- Insert Profile name Here--></h2>
 				</div>
+			</div>	
+			<div class="row">
 				<div class="col-md-4">
-					<p>Email:</p><p><!--Install Email here--></p>
+					<h3>Email:</h3><h4><!--Install Email here--></h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<h3>Bio:<br></h3><h4><!--Bio--></h4>
+					<h4>Bio:<br></h4><p><!--Bio--></p>
 				</div>
 			</div>
 		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+
+	   	<!-- jQuery Version 1.11.0 -->
+	    <script src="js/jquery-1.11.0.js"></script>
+
+		<!-- Scrolling Nav JavaScript -->
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/scrolling-nav.js"></script>
+		
+		<!-- Bootstrap Minified JS -->
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>

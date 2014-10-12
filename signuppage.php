@@ -9,7 +9,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 		<!-- Landing.css import -->
-		<link rel="stylesheet" type="text/css" href="css/signuppage.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<!-- Landing.css import -->
+		<link rel="stylesheet" type="text/css" href="css/setuppage.css">
 
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">

@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+body {
+    font-family: 'Lato:', sans-serif;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar-default .navbar-brand {
+    color: #C04848;
+    font-family: 'Lato:', sans-serif;
+}
+.navbar {
+    background-color: #480048;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #C04848;
+    font-family: 'Lato:', sans-serif;
+}
+
+#signup {
+    color: #EDE1B2;
+    font-family: 'Lato:', sans-serif;
+}
+
+#tagline {
+    padding-top: 4px;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    height: 900px;
+    background-image: url('../images/features/man.png');
+    background-size: auto 100%;
+    text-align: center;
+    font-family: 'Lato:900', sans-serif;
+    color: #C04848;
+    text-shadow: 2px 2px black;
+}
+
+#logo {
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+#logo .animate .fadeInLeft {
+   -webkit-animation-delay: 2s;
+   animation-delay: 5s;
+}
+
+.btn {
+    color: #EDE1B2;
+    border-radius: 0;
+    background-color: #480048;
+    border-color: #480048;
+    text-shadow: 0px 0px;
+    font-family: 'Lato:', sans-serif;
+}
+
+ul.nav a:hover { 
+    color: #EDE1B2 !important; 
+}
+
+ul.nav a#signup:hover { 
+    color: #C04848 !important;
+}
+
+div#page-top p > a.btn:hover { 
+    color: #C04848 !important;
+    background-color: #480048;
+    border-color: #480048;
+    font-family: 'Lato:', sans-serif;
+}
+
+#features {
+    height: 700spx;
+}
+
+#twopages {
+    height: 275px;
+    width: auto;
+    margin-top: 60px;
+}
+
+#mocktwo {
+    height: 275px;
+    width: auto;
+    margin-top: 60px;
+}
+
+
+.caption > h3 {
+    text-align: center;
+}
+
+.caption > p {
+    text-align: center;
+}
+
+#rowtwo {
+    height: 275px;
+    width: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+}
