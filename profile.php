@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 		<!-- Landing.css import -->
-		<link rel="stylesheet" type="text/css" href="css/signuppage.css">
+		<link rel="stylesheet" type="text/css" href="css/.css">
 
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -42,5 +42,20 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1>Name:</h1><h2><!-- Insert Profile name Here--></h2>
+				</div>
+				<div class="col-md-4">
+					<p>Email:</p><p><!--Install Email here--></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Bio:<br></h3><h4><!--Bio--></h4>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
