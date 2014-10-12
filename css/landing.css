@@ -1,0 +1,52 @@
+/* CSS for Landing Page */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.navbar {
+    background-color: #480048;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #EDE1B2;
+}
+
+
+#space {
+    height: 2000px;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    height: 900px;
+    background-image: url('../images/man.jpg');
+    background-size: auto 100%;
+    text-align: center;
+    font-family: 'Lato:900', sans-serif;
+    color: #EDE1B2;
+}
+
+#logo {
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.jumbotron .btn {
+    color: #EDE1B2;
+    border-radius: 0;
+    text-shadow: 0px 0px;
+    background-color: #480048;
+    border-color: #480048;
+}
