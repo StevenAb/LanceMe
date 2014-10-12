@@ -9,6 +9,9 @@
 		<!-- Latest compiled and minified Bootstrap CSS -->		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
+		<!-- listings.css import -->
+		<link rel="stylesheet" type="text/css" href="css/listings.css">
+
 		<!-- Animate.css -->
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 
