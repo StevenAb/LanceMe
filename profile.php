@@ -33,7 +33,10 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li class="active"><a href="#">My Profile</a></li>
-		        <li><a href="#">Job Listing</a></li>
+		        <li><a href="#">Job Listings</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Lancers</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#">Settings</a></li>
