@@ -4,14 +4,20 @@
 		
 		<title> Lance Me | Freelance & Buisness </title>
 
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="../images/favicon.ico">	
+
 		<!-- Latest compiled and minified Bootstrap CSS -->		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 		<!-- Landing.css import -->
 		<link rel="stylesheet" type="text/css" href="css/landing.css">
 
+		<!-- Animate.css -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+
 	</head>
-	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<body id="page-top" data-spy="scaroll" data-target=".navbar-fixed-top">
 		
 	    <!-- Navigation -->
 	    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -36,37 +42,171 @@
 	                    <li>
 	                        <a class="page-scroll" href="#features">Features</a>
 	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#services">Workflow</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#contact">About</a>
+	                </ul>
+	                <ul class="nav navbar-nav navbar-right">
+	                	<li>
+	                        <a id="signup" href="#0">Sign Up/Sign In</a>
 	                    </li>
 	                </ul>
 	            </div>
 	        </div>
 	    </nav>
 
-	    <div class="jumbotron">
-		  <div class="resizeimage">
-		  	<img id="logo" src="images/Logo.png" width="78%" height="auto">
+	    <div id="page-top" class="jumbotron">
+		  <div>
+		  	<img id="logo" class="animated fadeInLeft" src="images/features/Logo.png" width="78%" height="auto">
 		  </div>
-		  <p>Lorem Ipsum dumsum tripsum humsum lumsum.  </p>
+		  <p id="tagline">
+		  	Lorem Ipsum dumsum tripsum humsum lumsum.
+		  </p>
 		  <p>
 		  	<a class="btn btn-primary btn-lg" role="button">
 		  		Sign Up <span class="glyphicon glyphicon-chevron-right"></span>
 		  	</a>
-		 </p>
+		  </p>
 		</div>
-    	
-    	<div id="#features">
-    	</div>
+
+		<div id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<img id="twopages"src="images/features/twopages.png">
+						  <div class="caption">
+						     <h3>Freelancer and Client Pages</h3>
+						  </div>
+					</div>
+					<div class="col-md-4">
+						<img id="mocktwo" src="images/features/mock2.png">
+						  <div class="caption">
+						     <h3>Upload Multiple Filetypes</h3>
+						  </div>
+					</div>
+					<div class="col-md-4">
+						<img id="twopages"src="images/features/mock3.png">
+						  <div class="caption">
+						     <h3>Filterable Job Listing</h3>
+						  </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img id="rowtwo"src="images/features/mock4.png">
+						  <div class="caption">
+						     <h3>Connect with Users</h3>
+						  </div>
+					</div>
+					<div class="col-md-4">
+						<img id="rowtwo"src="images/features/mock5.png">
+						  <div class="caption">
+						     <h3>Direct Online Payment</h3>
+						  </div>
+					</div>
+					<div class="col-md-4">
+						<img id="rowtwo"src="images/features/mock6.png">
+						  <div class="caption">
+						     <h3>Rated Users</h3>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+			<ul class="cd-switcher">
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">New account</a></li>
+			</ul>
+
+			<div id="cd-login"> <!-- log in form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Remember me</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-login -->
+
+			<div id="cd-signup"> <!-- sign up form -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">Username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">Password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+						<a href="#0" class="hide-password">Hide</a>
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-signup -->
+
+			<div id="cd-reset-password"> <!-- reset password form -->
+				<p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Error message here!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+					<p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+				</div> <!-- cd-reset-password -->
+				<a href="#0" class="cd-close-form">Close</a>
+			</div> <!-- cd-user-modal-container -->
+		</div> <!-- cd-user-modal -->
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/main.js"></script>
 
 	   	<!-- jQuery Version 1.11.0 -->
 	    <script src="js/jquery-1.11.0.js"></script>
-
-		<!-- Bootstrap Core JavaScript -->
-		<script src="js/bootstrap.min.js"></script>
 
 		<!-- Scrolling Nav JavaScript -->
 		<script src="js/jquery.easing.min.js"></script>
@@ -74,6 +214,5 @@
 		
 		<!-- Bootstrap Minified JS -->
 		<script src="js/bootstrap.min.js"></script>
-
 	</body>
 </html>
